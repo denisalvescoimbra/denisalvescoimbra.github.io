@@ -1,0 +1,87 @@
+body {
+    font-family: monospace, sans-serif;
+    background-color: rgb(31, 36, 33);
+    text-align: center;
+    color: #fff;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 18px;
+    
+}
+h1 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+span {
+    color: gold;
+}
+
+.foto-atual {
+    width: 200px;
+    border-radius: 50%;
+}
+.foto-link-interno {
+    width: 150px;
+    margin: 30px 0 30px 0;
+    border-radius: 20%;
+}
+ul {
+    list-style: none;            
+}
+ul li {
+    text-align: left;                     
+    line-height: 50px;;
+}                
+.title-h2, h1 {
+    background-color: rgb(245, 47, 87);
+    margin-top: 100px;
+}
+a {
+    text-decoration: none;
+    color: gold;
+    font-size: 1.5em;
+}
+.section {
+    margin-bottom: 200px;
+}
+#minhas-habilidades {
+    
+}
+.item-list-1 {
+    font-size: 16px;
+}
+.item-list-2 {
+    font-size: 19px;
+}
+.item-list-3 {
+    font-size: 22px;
+}
+.item-list-4 {
+    font-size: 25px;
+}
+.cidade-estado {
+    font-style:oblique;
+}
+.indice-secoes {
+    background: rgb(245,47,87);
+    font-size: 12px;
+    margin-top: 80px;                    
+}.indice-secoes li a {
+    color: #fff;         
+}
+.main-container {
+    
+    
+    
+    
+}
+
+
+.imagem {
+    width: 50%;
+    float: left;
+}
+.texto {
+    width: 50%;
+    float: right;
+    
+}
