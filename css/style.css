@@ -18,12 +18,11 @@ body {
     font-size: 18px;
     
 }
-#inicio {
+#inicio, #minhas-habilidades, #blog-container {
     border-radius: 20px;
+    padding: 10px;
 }
-#minhas-habilidades {
-    border-radius: 20px;
-}
+
 h1, h2 {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 2rem;
@@ -49,10 +48,7 @@ ul {
 ul li {
     text-align: left;                     
     line-height: 50px;;
-}
-.habilidades {
-
-}                
+}         
 .title-h2, h1 {
     background-color: rgb(245, 47, 87);
     margin-top: 100px;
@@ -82,7 +78,6 @@ a {
 .main-container .texto {
     margin-top: 70px;
 }
-
 .imagem {
     width: 45%;
     float: left;
@@ -94,7 +89,7 @@ a {
     background: rgb(245, 47, 87);    
 }
 
-.main-container .texto p {
+.main-container .texto p, .habilidades-container {
     letter-spacing: 4px;
     text-align: left;
     
@@ -102,17 +97,45 @@ a {
 
 .habilidades-container {
     width: 100%;    
+    display: inline-block;
 }
 .habilidades-container .texto {
-    float: left;    
+    float: left;
+    width: 78%;    
+    position: absolute;
+    z-index: 2;
+        
 }
 .habilidades-container .imagem {
-    margin-top: 5px;    
+    margin-top: 40px;
+    width: 20%;
+    position: absolute;
+    right: 100px;
+    z-index: 1;
 }
 .habilidades-container .imagem img {
     border-radius: 15px 22px 80px 0;
     padding: 1px;
 }
 .blog-container {
-    margin-top: 50px;
+    margin-top: 50px;    
+}
+.habilidades-container .habilidades li {
+    padding: 0;
+    margin: 0;       
+    
+}
+.blog-container  a {
+    font-size: 1rem;
+    background-color:rgb(245, 47, 87);
+    color: white;
+    padding: 10px;
+    border-radius: 2rem;
+    
+}
+.blog-container a:hover {
+    color: black;
+    border: 1px white solid;
+    transition: 0.5s;
+    
 }
