@@ -1,3 +1,10 @@
+/* Reset */
+* {
+    box-sizing: border-box;    
+}
+
+
+
 * {
     box-sizing: border-box;
 }
@@ -34,15 +41,17 @@ span {
 .foto-link-interno {
     width: 150px;
     margin: 30px 0 30px 0;
-    border-radius: 20%;
-    ;
+    border-radius: 20%;       
 }
 ul {
-    list-style: none;            
+    list-style: none;    
 }
 ul li {
     text-align: left;                     
     line-height: 50px;;
+}
+.habilidades {
+
 }                
 .title-h2, h1 {
     background-color: rgb(245, 47, 87);
@@ -54,22 +63,7 @@ a {
     font-size: 1.5em;
 }
 .section {
-    margin-bottom: 200px;
-}
-#minhas-habilidades {
-    
-}
-.item-list-1 {
-    font-size: 16px;
-}
-.item-list-2 {
-    font-size: 19px;
-}
-.item-list-3 {
-    font-size: 22px;
-}
-.item-list-4 {
-    font-size: 25px;
+    margin-bottom: 250px;
 }
 .cidade-estado {
     font-style:oblique;
@@ -89,14 +83,13 @@ a {
     margin-top: 70px;
 }
 
-
 .imagem {
     width: 45%;
     float: left;
     margin-top: -40px;    
 }
 .imagem img {
-    padding: 5px;
+    padding: 5px;    
     border:rgb(245, 47, 87) solid 4px;
     background: rgb(245, 47, 87);    
 }
@@ -105,4 +98,21 @@ a {
     letter-spacing: 4px;
     text-align: left;
     
+}
+
+.habilidades-container {
+    width: 100%;    
+}
+.habilidades-container .texto {
+    float: left;    
+}
+.habilidades-container .imagem {
+    margin-top: 5px;    
+}
+.habilidades-container .imagem img {
+    border-radius: 15px 22px 80px 0;
+    padding: 1px;
+}
+.blog-container {
+    margin-top: 50px;
 }
